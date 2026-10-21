@@ -1,0 +1,47 @@
+
+---Downloaded files---
+The import files for: Charitio were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://seodigitalmarketingsolutions.com/ee4women
+Data file = /home/u314929967/domains/seodigitalmarketingsolutions.com/public_html/ee4women/wp-content/uploads/2022/06/demo-content-import-file_2022-06-13__10-44-44.xml
+Widget file = /home/u314929967/domains/seodigitalmarketingsolutions.com/public_html/ee4women/wp-content/uploads/2022/06/demo-widgets-import-file_2022-06-13__10-44-44.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Main Widget Area : 
+
+Search - Search - Widget already exists
+Categories - Categories - Widget already exists
+Charitio: Recent Posts - Recent Posts - Widget already exists
+Tag Cloud - Tags - Widget already exists
+
+Footer Widget 1 : 
+
+Charitio: Text Widget - No Title - Widget already exists
+
+Footer Widget 2 : 
+
+Charitio: Navigation - Quick Link - Widget already exists
+
+Footer Widget 3 : 
+
+Charitio: Text Widget - Our Address - Widget already exists
+
+Footer Widget 4 : 
+
+mc4wp_form_widget - Newsletter - Site does not support widget
+
+GiveWP Single Form Sidebar : 
+
+Search - Search - Widget already exists
+Categories - Categories - Widget already exists
+Charitio: Causes Posts - Causes Posts - Widget already exists
+Tag Cloud - Tags - Widget already exists
+
+
+
+---ocdi/after_import---
+

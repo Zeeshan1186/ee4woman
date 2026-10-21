@@ -1,0 +1,271 @@
+/* RTL */
+.rtl .frmaster-column-10,
+.rtl .frmaster-column-12,
+.rtl .frmaster-column-15,
+.rtl .frmaster-column-20,
+.rtl .frmaster-column-24,
+.rtl .frmaster-column-30,
+.rtl .frmaster-column-36,
+.rtl .frmaster-column-40,
+.rtl .frmaster-column-45,
+.rtl .frmaster-column-48,
+.rtl .frmaster-column-50,
+.rtl .frmaster-column-60 { float: right; }
+.rtl .frmaster-column-first{ clear: right; }
+
+.rtl.single-cause .frmaster-cause-donated-bar-percent {
+	float: right;
+}
+.rtl.single-cause .frmaster-cause-goal {
+	float: left;
+}
+.rtl.single-cause .frmaster-cause-donation-info > div {
+	float: right;
+	margin-left: 50px;
+	margin-right: 0;
+}
+.rtl.single-cause .frmaster-cause-donation-info > div:last-child {
+	margin-left: 0px;
+}
+.rtl.single-cause .frmaster-cause-social-share-wrap a {
+	margin-left: 20px;
+	margin-right: 0;
+}
+.rtl.single-cause .frmaster-cause-info-bottom .frmaster-button {
+	margin-left: 12px;
+	margin-right: 0;
+}
+.rtl a.frmaster-button i {
+	margin-left: 7px;
+	margin-right: 0;
+}
+.rtl.single-cause .frmaster-single-cause-video-lb {
+	right: 0px;
+	left: auto;
+}
+.rtl.single-cause .frmaster-single-cause-gallery-lb {
+	right: 60px;
+	left: auto;
+}
+.rtl.single-cause .frmaster-cause-donated-bar span {
+	right: 0px;
+	left: auto;
+}
+.rtl .frmaster-login-form .frmaster-login-user, .rtl .frmaster-login-form .frmaster-login-pass {
+	float: right;
+}
+.rtl .frmaster-register-form .frmaster-profile-field {
+	float: right;
+}
+.rtl .frmaster-form-field .frmaster-combobox-wrap::after {
+	left: 16px;
+	right: auto;
+
+}
+.rtl .frmaster-register-form .frmaster-register-term input {
+	margin-left: 10px;
+	margin-right: 0;
+}
+.rtl.frmaster-template-payment .frmaster-page-content .frmaster-login-user, .rtl.frmaster-template-payment .frmaster-page-content .frmaster-login-pass {
+	padding-left: 15px;
+	padding-right: 0;
+}
+.rtl.frmaster-template-payment .frmaster-page-content .frmaster-login-submit {
+	float: right;
+}
+.rtl.frmaster-template-payment .frmaster-page-content .frmaster-login-form-fields {
+	float: right;
+}
+.rtl.frmaster-template-payment .frmaster-donate-anonymously input {
+	margin-left: 10px;
+	margin-right: 0;
+}
+.rtl.frmaster-template-payment .frmaster-create-account input{
+	margin-left: 12px;
+	margin-right: 0;
+}
+.rtl.frmaster-template-payment .frmaster-payment-head-thumbnail {
+	float: right;
+}
+.rtl.frmaster-template-payment .frmaster-page-content, .rtl.frmaster-template-payment .frmaster-cause-info-wrap {
+	padding-left: 32%;
+	padding-right: 0;
+	margin-left: 50px;
+	margin-right: 0;
+}
+.rtl.frmaster-template-payment .frmaster-payment-bar {
+	left: 0px;
+	right: auto;
+}
+.rtl.frmaster-template-payment .frmaster-cause-info-wrap {
+	padding-left: 32%;
+	padding-right: 40px;
+}
+.rtl.frmaster-template-payment .frmaster-cause-donated-bar-percent {
+	float: right;
+}
+.rtl.frmaster-template-payment .frmaster-cause-goal {
+	float: left;
+}
+.rtl.frmaster-template-payment .frmaster-donation-amount input[type="text"] {
+	padding-right: 0px;
+	padding-left: 20px;
+}
+.rtl.frmaster-template-payment .frmaster-donation-method-button {
+	float: right;
+}
+.rtl.frmaster-template-payment .frmaster-cause-donated-bar span {
+	left: auto;
+	right: 0px;
+}
+.rtl.frmaster-template-payment .frmaster-container.frmaster-step-2 .frmaster-page-content, .rtl.frmaster-template-payment .frmaster-container.frmaster-step-2 .frmaster-cause-info-wrap {
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0;
+	padding-right: 40px;
+}
+.rtl.frmaster-template-payment .frmaster-container.frmaster-step-2 .frmaster-page-content{
+	margin-right: 0;
+	padding-right: 0;
+}
+@media only screen and (max-width: 767px) {
+	.rtl.frmaster-template-payment .frmaster-page-content, .rtl.frmaster-template-payment .frmaster-cause-info-wrap {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.rtl.frmaster-template-payment .frmaster-payment-head-thumbnail {
+		float: none;
+	}
+	.rtl .frmaster-login-form .frmaster-login-user, .rtl .frmaster-login-form .frmaster-login-pass, .rtl .frmaster-register-form .frmaster-profile-field {
+		width: auto;
+		float: none;
+	}
+}
+.rtl.frmaster-template-payment .donation-complete-title i {
+	margin-left: 23px;
+	margin-right: 0;
+	display: inline-block;
+}
+.rtl.frmaster-template-payment .donation-complete-message-item .frmaster-head {
+	margin-left: 6px;
+	margin-right: 0;
+	display: inline-block;
+}
+.rtl.frmaster-template-payment .donation-complete-message-item {
+	float: right;
+}
+.rtl.frmaster-template-payment .donation-complete-message-item:nth-child(2n-1) {
+	clear: right;
+}
+.rtl.frmaster-template-payment .frmaster-profile-item .frmaster-head {
+	margin-left: 14px;
+	margin-right: 0;
+	display: inline-block;
+}
+.rtl.frmaster-template-payment .frmaster-profile-item {
+	float: right;
+}
+.rtl .frmaster-user-navigation {
+	float: right;
+}
+.rtl .frmaster-user-navigation .frmaster-user-navigation-item.frmaster-active:before {
+	margin-left: 18px;
+	margin-right: 0;
+}
+.rtl .frmaster-user-navigation .frmaster-user-navigation-item-icon {
+	margin-left: 11px;
+	margin-right: 0;
+}
+.rtl .frmaster-user-content-block .frmaster-user-content-title {
+	float: right;
+}
+.rtl .frmaster-my-profile-avatar {
+	float: right;
+	margin-left: 40px;
+	margin-right: 0;
+}
+.rtl .frmaster-my-profile-info .frmaster-head {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+}
+.rtl .frmaster-template-wrapper table.frmaster-table th {
+	text-align: right;
+}
+.rtl .frmaster-template-wrapper table.frmaster-table td {
+	text-align: right;
+}
+.rtl table.frmaster-my-contribution-table .frmaster-my-contribution-title .frmaster-head {
+	margin-left: 10px;
+	margin-right: 0;
+	display: inline-block;
+}
+.rtl table.frmaster-my-contribution-table .frmaster-my-contribution-status i {
+	margin-left: 9px;
+	margin-right: 0;
+}
+.rtl table.frmaster-my-contribution-table .frmaster-my-contribution-status {
+	margin-left: 20px;
+	margin-right: 0;
+}
+.rtl table.frmaster-my-contribution-table .frmaster-my-contribution-action {
+	margin-left: 4px;
+	margin-right: 0;
+}
+.rtl .frmaster-user-breadcrumbs .frmaster-sep {
+	display: inline-block;
+}
+.rtl .frmaster-user-breadcrumbs-item {
+	display: inline-block;
+}
+.rtl .frmaster-my-contribution-single-field .frmaster-head {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+}
+.rtl .frmaster-user-content-inner-my-contribution-single .frmaster-my-contribution-single-title .frmaster-right {
+	float: left;
+	text-align: left;
+}
+.rtl .frmaster-my-contribution-single-field .frmaster-right {
+	float: left;
+	text-align: left;
+}
+.rtl .frmaster-user-content-block .frmaster-user-content-title-link {
+	float: left;
+}
+.rtl .frmaster-edit-profile-wrap .frmaster-head {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+.rtl .frmaster-edit-profile-wrap .frmaster-req {
+	margin-right: 5px;
+	margin-left: 0;
+}
+.rtl .frmaster-follow-item .frmaster-follow-thumbnail {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+.rtl .frmaster-follow-remove-item i {
+	margin-left: 10px;
+	margin-right: 0;
+}
+.rtl .frmaster-invoice-head-left {
+	float: right;
+}
+.rtl .frmaster-invoice-head-right {
+	float: left;
+}
+.rtl .frmaster-invoice-price-head .frmaster-head {
+	float: right;
+}
+.rtl .frmaster-invoice-payment-info-item {
+	float: right;
+	margin-left: 60px;
+	margin-right: 0;
+}
+.rtl .frmaster-invoice-signature {
+	text-align: left;
+}

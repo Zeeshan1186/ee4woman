@@ -1,0 +1,220 @@
+
+---Downloaded files---
+The import files for: Charitio were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://seodigitalmarketingsolutions.com/ee4women
+Data file = /home/u314929967/domains/seodigitalmarketingsolutions.com/public_html/ee4women/wp-content/uploads/2022/06/demo-content-import-file_2022-06-13__10-38-26.xml
+Widget file = /home/u314929967/domains/seodigitalmarketingsolutions.com/public_html/ee4women/wp-content/uploads/2022/06/demo-widgets-import-file_2022-06-13__10-38-26.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import product_tag Blazer
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_tag Trending
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat Winter Dress
+[ERROR] Failed to import "washing-hands (1)" (Media)
+[ERROR] Failed to import "mask" (Media)
+[ERROR] Failed to import "no-handshake" (Media)
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_tag Blazer
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_tag Trending
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat Winter Dress
+[ERROR] Failed to import "washing-hands (1)" (Media)
+[ERROR] Failed to import "mask" (Media)
+[ERROR] Failed to import "no-handshake" (Media)
+[ERROR] Failed to import "case-6" (Media)
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_tag Blazer
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_tag Trending
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat Winter Dress
+[ERROR] Failed to import "washing-hands (1)" (Media)
+[ERROR] Failed to import "mask" (Media)
+[ERROR] Failed to import "no-handshake" (Media)
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_tag Blazer
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_tag Trending
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat Winter Dress
+[ERROR] Failed to import "washing-hands (1)" (Media)
+[ERROR] Failed to import "mask" (Media)
+[ERROR] Failed to import "no-handshake" (Media)
+[ERROR] Failed to import "footer-logo" (Media)
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_tag Blazer
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_tag Trending
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat Winter Dress
+[ERROR] Failed to import "washing-hands (1)" (Media)
+[ERROR] Failed to import "mask" (Media)
+[ERROR] Failed to import "no-handshake" (Media)
+[ERROR] Failed to import "footer-logo" (Media)
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_tag Blazer
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_tag Trending
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat Winter Dress
+[ERROR] Failed to import "washing-hands (1)" (Media)
+[ERROR] Failed to import "mask" (Media)
+[ERROR] Failed to import "no-handshake" (Media)
+[ERROR] Failed to import "footer-logo" (Media)
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_tag Blazer
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_tag Trending
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat Winter Dress
+[ERROR] Failed to import "washing-hands (1)" (Media)
+[ERROR] Failed to import "mask" (Media)
+[ERROR] Failed to import "no-handshake" (Media)
+[ERROR] Failed to import "footer-logo" (Media)
+
+
+---Importing widgets---
+Main Widget Area : 
+
+Search - Search - Imported
+Categories - Categories - Imported
+Charitio: Recent Posts - Recent Posts - Imported
+Tag Cloud - Tags - Imported
+
+Footer Widget 1 : 
+
+Charitio: Text Widget - No Title - Imported
+
+Footer Widget 2 : 
+
+Charitio: Navigation - Quick Link - Imported
+
+Footer Widget 3 : 
+
+Charitio: Text Widget - Our Address - Imported
+
+Footer Widget 4 : 
+
+mc4wp_form_widget - Newsletter - Site does not support widget
+
+GiveWP Single Form Sidebar : 
+
+Search - Search - Imported
+Categories - Categories - Imported
+Charitio: Causes Posts - Causes Posts - Imported
+Tag Cloud - Tags - Imported
+
+
+
+---ocdi/after_import---
+
