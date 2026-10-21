@@ -42,8 +42,8 @@ if ( $is_local_dev ) {
 
 	/** Local URLs (prevents redirection to live production site) */
 	$proto = ( ! empty( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] !== 'off' ) ? 'https://' : 'http://';
-	$host  = $_SERVER['HTTP_HOST'] ?? 'localhost';
-	$path  = ( isset( $_SERVER['REQUEST_URI'] ) && strpos( $_SERVER['REQUEST_URI'], '/ee4woman' ) === 0 ) ? '/ee4woman' : '';
+	$host  = $_SERVER['HTTP_HOST'] ?? 'localhost:8081';
+	$path  = '/ee4woman';
 	define( 'WP_HOME', $proto . $host . $path );
 	define( 'WP_SITEURL', WP_HOME );
 } else {

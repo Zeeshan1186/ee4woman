@@ -38,8 +38,10 @@
  *
  */
 
-//referenceed 
-include_once __dir__ . "/interfaces/defaults.php" ;
+// Referenced defaults if available
+if ( file_exists( __DIR__ . '/interfaces/defaults.php' ) ) {
+  include_once __DIR__ . '/interfaces/defaults.php';
+}
 
 
 // ------------------------------------------------------------------------------------------------
