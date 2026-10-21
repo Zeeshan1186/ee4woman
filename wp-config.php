@@ -116,6 +116,8 @@ define( 'WP_DEBUG_DISPLAY', false );
 
 define( 'WP_AUTO_UPDATE_CORE', 'minor' );
 define( 'FS_METHOD', 'direct' );
+/** Disable dashboard theme and plugin file editor (stops attackers injecting webshells if admin password is compromised) */
+define( 'DISALLOW_FILE_EDIT', true );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */

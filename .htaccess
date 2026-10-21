@@ -37,6 +37,49 @@ CacheKeyModify -qs:_ga
 ## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
 ## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
 # END NON_LSCACHE
+
+# BEGIN Security Hardening
+# 1. Disable directory listing
+Options -Indexes
+
+# 2. Protect sensitive files
+<FilesMatch "(?i)^(\.git|\.env|wp-config\.php|readme\.html|license\.txt|\.sql|\.log|\.bak)">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order Deny,Allow
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# 3. Block XML-RPC brute force attacks
+<Files "xmlrpc.php">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order Deny,Allow
+        Deny from all
+    </IfModule>
+</Files>
+
+# 4. Block author/user enumeration attempts
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{QUERY_STRING} ^author=([0-9]+) [NC]
+    RewriteRule .* - [F,L]
+</IfModule>
+
+# 5. Security HTTP Headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+# END Security Hardening
+
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
