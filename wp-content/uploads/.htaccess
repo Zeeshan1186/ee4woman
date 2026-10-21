@@ -1,5 +1,5 @@
 # Block direct execution of PHP and executable scripts in uploads directory
-<FilesMatch "(?i)\.(php|php3|php4|php5|php7|phtml|phps|pl|py|cgi|sh|bash|exe)$">
+<FilesMatch "(?i)\.(php[0-9]?|phtml|phar|phps|inc|pl|py|cgi|sh|bash|exe)$">
     <IfModule mod_authz_core.c>
         Require all denied
     </IfModule>

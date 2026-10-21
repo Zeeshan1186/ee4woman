@@ -344,26 +344,33 @@ class Charitio_Causes extends Widget_Base{
 	          $image_url = wp_get_attachment_url( $causes_image );
 	          $image_alt = get_post_meta( $causes_image , '_wp_attachment_image_alt', true);
 
-						$form        = new \Give_Donate_Form( get_the_ID() );
-						$goal_option = get_post_meta( get_the_ID(), '_give_goal_option', true );
-						$goal        = $form->goal;
-						$goal        = (int) $goal;
-						$goal_format = get_post_meta( get_the_ID(), '_give_goal_format', true );
-						$income      = $form->get_earnings();
-						$color       = get_post_meta( get_the_ID(), '_give_goal_color', true );
-					
-						if ( $goal > 0 ) {
-							$progress = round( ( $income / $goal ) * 100, 2 );
-							if ( $income >= $goal ) {
-							  $progress = 100;
+						if ( class_exists( 'Give_Donate_Form' ) ) {
+							$form        = new \Give_Donate_Form( get_the_ID() );
+							$goal_option = get_post_meta( get_the_ID(), '_give_goal_option', true );
+							$goal        = $form->goal;
+							$goal        = (int) $goal;
+							$goal_format = get_post_meta( get_the_ID(), '_give_goal_format', true );
+							$income      = $form->get_earnings();
+							$color       = get_post_meta( get_the_ID(), '_give_goal_color', true );
+						
+							if ( $goal > 0 ) {
+								$progress = round( ( $income / $goal ) * 100, 2 );
+								if ( $income >= $goal ) {
+								  $progress = 100;
+								}
 							}
-						}
 
-						$customer_id = give_get_payment_donor_id( get_the_ID() );
-						$income = give_human_format_large_amount( give_format_amount( $income ) );
-						$goal = give_human_format_large_amount( give_format_amount( $goal ) );
-						$payment_mode = give_get_chosen_gateway( get_the_ID() );
-						$form_action = add_query_arg( apply_filters( 'give_form_action_args', array( 'payment-mode' => $payment_mode, ) ),  give_get_current_page_url() );
+							$customer_id = function_exists( 'give_get_payment_donor_id' ) ? give_get_payment_donor_id( get_the_ID() ) : 0;
+							$income = function_exists( 'give_human_format_large_amount' ) ? give_human_format_large_amount( give_format_amount( $income ) ) : $income;
+							$goal = function_exists( 'give_human_format_large_amount' ) ? give_human_format_large_amount( give_format_amount( $goal ) ) : $goal;
+							$payment_mode = function_exists( 'give_get_chosen_gateway' ) ? give_get_chosen_gateway( get_the_ID() ) : '';
+							$form_action = function_exists( 'give_get_current_page_url' ) ? add_query_arg( apply_filters( 'give_form_action_args', array( 'payment-mode' => $payment_mode, ) ),  give_get_current_page_url() ) : '#';
+						} else {
+							$goal = 0;
+							$income = 0;
+							$progress = 0;
+							$form_action = '#';
+						}
 
 						// remaining date
 						$dead_line = get_post_meta( get_the_ID(), '_donation_form_metabox', true );

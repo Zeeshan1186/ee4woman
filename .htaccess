@@ -42,8 +42,8 @@ CacheKeyModify -qs:_ga
 # 1. Disable directory listing
 Options -Indexes
 
-# 2. Protect sensitive files
-<FilesMatch "(?i)^(\.git|\.env|wp-config\.php|readme\.html|license\.txt|\.sql|\.log|\.bak)">
+# 2. Protect sensitive files, archives, and configurations
+<FilesMatch "(?i)(\.git|\.env|wp-config\.php|readme\.html|license\.txt|\.sql(\.zip)?$|\.zip$|\.rar$|\.tar$|\.gz$|\.7z$|\.bak$|\.log$|\.orig$)">
     <IfModule mod_authz_core.c>
         Require all denied
     </IfModule>

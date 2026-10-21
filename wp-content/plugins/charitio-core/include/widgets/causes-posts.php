@@ -197,6 +197,9 @@ class charitio_causes_posts extends WP_Widget {
       global $post;
       $case_image_url = wp_get_attachment_url( $causes_image );
       $case_image_alt = get_post_meta( $causes_image , '_wp_attachment_image_alt', true);
+      if ( ! class_exists( 'Give_Donate_Form' ) || ! function_exists( 'give_is_setting_enabled' ) ) {
+        return false;
+      }
 
       $form        = new \Give_Donate_Form( get_the_ID() );
       $goal_option = get_post_meta( get_the_ID(), '_give_goal_option', true );
