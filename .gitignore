@@ -2,8 +2,8 @@
 wp-content/ai1wm-backups/
 
 # Raw SQL dumps over 100MB (GitHub blocks files >100MB)
-*.sql
-!*.sql.zip
+/u200490375*.sql
+!/u200490375*.sql.zip
 
 # Logs and OS files
 *.log
