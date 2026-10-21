@@ -20,7 +20,9 @@
 				  echo '<p>&copy; Copyright '.current_time( 'Y' ).' | <a href="'.esc_url( get_home_url( '/' ) ).'">'.get_bloginfo( 'name' ).'</a> | All right reserved.</p>';
 			  }
 			  $charitio_secondary_text = cs_get_option( 'secondary_text' );
-			  echo wp_kses( do_shortcode( $charitio_secondary_text ) , array( 'div' => array( 'class' => array(), ), 'a' => array('href' => array(),'title' => array()),'p' => array(),'ul' => array(),'li' => array(),) );
+			  if ( ! empty( $charitio_secondary_text ) ) {
+				  echo wp_kses( do_shortcode( $charitio_secondary_text ) , array( 'div' => array( 'class' => array(), ), 'a' => array('href' => array(),'title' => array()),'p' => array(),'ul' => array(),'li' => array(),) );
+			  }
 		  ?>
       </div>
     </div>

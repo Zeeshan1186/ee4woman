@@ -86,10 +86,10 @@ if( $charitio_hide_topbar === 'show' && ( $charitio_top_left || $charitio_top_ri
     <div class="container-fluid">
         <div class="row">
             <div class="col col-md-7 col-sm-12 col-12">
-               <?php echo do_shortcode( $charitio_top_left ); ?>
+               <?php if ( ! empty( $charitio_top_left ) ) { echo do_shortcode( $charitio_top_left ); } ?>
             </div>
             <div class="col col-md-5 col-sm-12 col-12">
-                <?php echo do_shortcode( $charitio_top_right ); ?>
+                <?php if ( ! empty( $charitio_top_right ) ) { echo do_shortcode( $charitio_top_right ); } ?>
             </div>
         </div>
     </div>
