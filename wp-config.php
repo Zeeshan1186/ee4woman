@@ -30,7 +30,10 @@ $is_local_dev = (
 		strpos( $_SERVER['HTTP_HOST'], '127.0.0.1' ) !== false ||
 		substr( $_SERVER['HTTP_HOST'], -5 ) === '.test' ||
 		substr( $_SERVER['HTTP_HOST'], -6 ) === '.local'
-	) ) || ( php_sapi_name() === 'cli' || php_sapi_name() === 'cli-server' )
+	) ) || (
+		( php_sapi_name() === 'cli' || php_sapi_name() === 'cli-server' ) &&
+		( strpos( __DIR__, 'Users' ) !== false || strpos( __DIR__, 'xampp' ) !== false || strpos( __DIR__, 'C:' ) !== false )
+	)
 );
 
 if ( $is_local_dev ) {
@@ -51,7 +54,7 @@ if ( $is_local_dev ) {
 	define( 'DB_NAME', 'u200490375_DAhAb' );
 	define( 'DB_USER', 'u200490375_XAanB' );
 	define( 'DB_PASSWORD', 'SaPbKOJzBc' );
-	define( 'DB_HOST', '127.0.0.1' );
+	define( 'DB_HOST', 'localhost' );
 }
 
 /** Database charset to use in creating database tables. */
@@ -104,10 +107,17 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', true );
-define( 'WP_DEBUG_LOG', true );
-define( 'WP_DEBUG_DISPLAY', false );
-@ini_set( 'display_errors', 0 );
+if ( $is_local_dev ) {
+	define( 'WP_DEBUG', true );
+	define( 'WP_DEBUG_LOG', true );
+	define( 'WP_DEBUG_DISPLAY', false );
+	@ini_set( 'display_errors', 0 );
+} else {
+	define( 'WP_DEBUG', false );
+	define( 'WP_DEBUG_LOG', false );
+	define( 'WP_DEBUG_DISPLAY', false );
+	@ini_set( 'display_errors', 0 );
+}
 
 
 /* Add any custom values between this line and the "stop editing" line. */

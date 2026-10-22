@@ -1,9 +1,10 @@
 # WordPress Backups (contain >6 GB of full duplicate backups)
 wp-content/ai1wm-backups/
 
-# Raw SQL dumps over 100MB (GitHub blocks files >100MB)
-/u200490375*.sql
-!/u200490375*.sql.zip
+# Raw SQL dumps & archives
+*.sql
+*.sql.zip
+*.wpress
 
 # Logs and OS files
 *.log
@@ -11,3 +12,5 @@ wp-content/ai1wm-backups/
 Thumbs.db
 desktop.ini
 powershell.cmd
+dbname
+
